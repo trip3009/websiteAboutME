@@ -1,0 +1,332 @@
+/* You can add custom CSS and extend Boostrap styles in this file.  Remember, Bootstrap is just CSS at the end of the day! */
+
+
+/* * {
+	box-sizing: border-box;
+  border: 2px solid blue;
+} */
+html, body {
+	margin: 0;
+  width: 100%;
+  height: 150%;
+/*   min-height: 100vh; */
+	font-family: 'Merriweather', serif, 'Rubik Moonrocks', cursive,'Rubik Moonrocks', cursive;
+/* 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI", Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
+  scroll-behavior: smooth;
+	-webkit-font-smoothing: antialiased;
+  background-color: #cec567;
+}
+#about{
+  text-align: center;
+  border-radius: 45px;
+}
+
+.parallax1 {
+  position: relative;
+  background-image: url("https://i.imgur.com/sRQYbQ7.png");
+  min-height: 50vh;
+  background-position: center;
+  back-ground-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  border: 4px solid;
+  }
+.parallax1 img {
+  width: 300px;
+  margin: 80px 0 20px;
+  border-radius: 50%;
+  border: 2px solid #cec567;
+}
+h1 {
+  text-align: center;
+  padding: 15px 100px 20px;
+  margin: 50px 100px 20px;
+}
+
+.resume-text {
+  color: white;
+}
+.parallax2 {
+  text-align: center;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)), url("https://i.imgur.com/aTYUYJe.png");
+  min-height: 69vh; 
+  position: relative;
+  background-position: center;
+  back-ground-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  border: 4px solid;
+}
+.parallax2 img {
+  width: 300px;
+  margin: 90px 0 30px;
+  border-radius: 50%;
+  border: 2px solid #cec567;
+}
+.myflex {
+  display: flex;
+  margin: auto;
+  }
+.myflex div {
+  flex: 1;
+  
+}
+.myflex div video {
+  width: 100%;
+}
+.classicmus {
+  display: inline-text;
+}
+
+.containerOne {
+ 
+/*   width: 300px;
+  margin: 100px; */
+  display: inline-text;
+  
+}
+.card-pics {
+  width: 100%;
+  height: 200%
+  object-fit:cover;
+}
+.card-footer {
+  position: absolute;
+  background-color: #ccc;
+  margin: auto-flow; 
+}
+.walktobeach{
+   text-align: center;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://i.imgur.com/GIWYZBG.png");
+  min-height: 75vh;
+  position: relative;
+  background-position: center;
+  back-ground-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  border: 20px solid;
+  margin: 50px;
+  
+}
+
+.parallax3 {
+  text-align: center;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://i.imgur.com/AOf614O.jpg");
+  min-height: 75vh;
+  position: relative;
+  background-position: center;
+  back-ground-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  border: 4px solid;
+}
+.parallax3 img {
+  width: 250px;
+  margin: 200px 0 20px;
+  border-radius: 50%;
+  border: 2px solid #cec567;
+  }
+
+.parallax4 {
+  text-align: center;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/fam-beach.jpeg");
+  min-height: 60vh;
+  position: relative;
+  background-position: center;
+  back-ground-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  border: 4px solid;
+}
+.myflex6 {
+  width: 75%;
+  left: 15%;
+}
+.colortree {
+  text-align: center;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://i.imgur.com/Xf0adgl.jpg");
+  min-height: 75vh;
+  position: relative;
+  background-position: center;
+  back-ground-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  border: 4px solid;
+}
+
+
+.parallax5 {
+  text-align: center;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://i.imgur.com/Xf0adgl.jpg");
+  min-height: 75vh;
+  position: relative;
+  background-position: center;
+  back-ground-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  border: 4px solid;
+}
+#martin_q {
+  color: #cec567;
+  }
+#family {
+  color: #cec567;
+}
+
+.carousel-item {
+  position: relative;
+  background-color: invisible;
+  width: 700px;
+  height: 900px;
+  border-color: #cec567;
+  margin: auto;
+ }
+.carousel-item img {
+  margin: 100px auto;
+  min-height: 75vh;
+  width: 100%;
+  border-radius: 60%
+}
+.container {
+  display: text-align;
+  margin: auto;
+  padding: auto;
+}
+
+img {
+  width: 300px;
+}
+about-me.html img {
+  margin: 20px auto;
+  min-height: 25vh;
+  width: 30%;
+  border-radius: 25%;
+}
+
+#contact-us {
+  display: center;
+  position: absolute;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px 30px 5px 0;
+  width: 75%;
+  left: 15%;
+  
+  }
+
+
+
+/* @media screen and (max-width: 600px) {
+  .column, submit {
+    width: 100%;
+    margin-top: 0px;
+  }
+} I don't understand this, so it won't be used.
+ */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin: 6px 6px;
+  resize: vertical;
+}
+#submit {
+  background-color: none;
+  color: none;
+  padding: auto;
+  margin: auto;
+  border: solid;
+}
+
+.column {
+  float: left;
+  width: 35%;
+  margin: 6px 0 0 0;
+  padding: 12px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#footer-section {
+  top: -10%;
+  text-inline: center;
+  font-family: Rubik Moonrocks;
+  position: absolute;
+  /* negative value of footer height */
+  width: 100%;
+  height: -20px;
+  clear: both;
+  background-color: red;
+}
+.content-wrap {
+  padding-bottom: 2.5rem;
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+#testimonials {
+/*   position: absolute; */
+  border: 2px solid #ccc;
+  background-color: #ddd;
+  border-radius: 20px;
+  padding: 106px;
+  margin: 100px auto;
+}
+#container-testimonials {
+  display: flex-direction column-reverse;
+}
+#testimonials img {
+  margin-right: 20px;
+  border-radius: 30%;
+  margin: auto;
+  float: none;
+  display: none;
+  left: 50px;
+}
+#testimonials span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+#testimonials::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.paragraph {
+  padding: 40px 15px;
+}
+#art-vid {
+ height: 100vh;
+}
+
+.pricing-table {
+  margin: 0 30px;
+  }
+.row h2 {
+  padding: 35px 0 20px;
+  margin: 40px 0;
+}
+/* .flower-vid {
+  background-video: linear-gradient(rgba(0,0,0,15), rgba(0,0,0,15)), url("https://i.imgur.com/Xf0adgl.jpg");
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -300%;
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity; 
+}
+ */
+
+/* #carousel-captions {
+  width: 1100px auto-flow;
+  height: 150vh;
+} */
